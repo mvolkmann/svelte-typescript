@@ -1,11 +1,5 @@
 <script>
-	export let name;
+  import Demo from './Demo.svelte';
 </script>
 
-<style>
-	h1 {
-		color: purple;
-	}
-</style>
-
-<h1>Hello {name}!</h1>
+<Demo title="TypeScript" />
