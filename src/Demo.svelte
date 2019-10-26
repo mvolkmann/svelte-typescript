@@ -1,5 +1,12 @@
 <script lang="typescript">
-  export const title: string = 'untitled';
+  export let title: string = 'untitled';
 </script>
+
+<style lang="scss">
+  $color: red;
+  div {
+    color: $color;
+  }
+</style>
 
 <div>Hello, {title}!</div>
