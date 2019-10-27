@@ -1,5 +1,8 @@
 <script lang="typescript">
   export let title: string = 'untitled';
+
+  let upperTitle: string;
+  $: upperTitle = title.toUpperCase();
 </script>
 
 <style lang="scss">
